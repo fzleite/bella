@@ -1,0 +1,79 @@
+#header input.header-search-input {
+    display: block;
+    padding: 8px 8px 8px 8px;
+    background: rgba(255, 255, 255, 0.3);
+    width: 87%;
+    height: 24px;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+    border: none;
+    font-size: 16px;
+    appearance: textfield;
+    font-weight: 400;
+    outline: none;
+    border-radius: 3px;
+    vertical-align: middle;
+  }
+  
+  #header input.header-search-input:hover {
+    background: rgba(255, 255, 255, 0.5);
+  }
+  
+  #header input.header-search-input:focus {
+    color: #333;
+    background: #fff;
+    border-bottom: none !important;
+    box-shadow: none !important;
+  }
+  
+  #header .header-search-wrapper-focus i {
+    color: #444;
+  }
+  
+  #header .header-search-input::-webkit-input-placeholder {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  #header .header-search-input::-moz-placeholder {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  #header .header-search-input:-ms-input-placeholder {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  #header .header-search-input:focus::-webkit-input-placeholder {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  #header .header-search-input:focus::-moz-placeholder {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  #header .header-search-input:focus::placeholder {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  #header .header-search-input:focus:-ms-input-placeholder {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  #header .header-search-input::placeholder {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+  }  
